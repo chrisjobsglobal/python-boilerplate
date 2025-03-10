@@ -15,41 +15,43 @@ This repository provides a general-purpose boilerplate for Python development, b
 
 ## Project Structure
 
+```
 my_python_boilerplate/
 ├── src/
-│ ├── app/
-│ │ ├── init.py
-│ │ ├── main.py # FastAPI application entry point
-│ │ ├── routes/
-│ │ │ ├── init.py
-│ │ │ └── ...
-│ │ ├── models/
-│ │ │ ├── init.py
-│ │ │ └── ...
-│ │ ├── services/
-│ │ │ ├── init.py
-│ │ │ └── ...
-│ │ ├── jobs/ # Queue/job processing
-│ │ │ ├── init.py
-│ │ │ └── tasks.py # Example tasks
-│ │ ├── seeders/
-│ │ │ ├── init.py
-│ │ │ └── seed.py # Database seeding scripts
-│ │ ├── config.py # Configuration settings
-│ │ └── database.py # Database connection and setup
-│ ├── alembic/ # Alembic migrations
-│ │ ├── env.py
-│ │ ├── README
-│ │ ├── script.py.mako
-│ │ └── versions/
-│ └── init.py
+│   ├── app/
+│   │   ├── __init__.py
+│   │   ├── main.py # FastAPI application entry point
+│   │   ├── routes/
+│   │   │   ├── __init__.py
+│   │   │   └── ...
+│   │   ├── models/
+│   │   │   ├── __init__.py
+│   │   │   └── ...
+│   │   ├── services/
+│   │   │   ├── __init__.py
+│   │   │   └── ...
+│   │   ├── jobs/ # Queue/job processing
+│   │   │   ├── __init__.py
+│   │   │   └── tasks.py # Example tasks
+│   │   ├── seeders/
+│   │   │   ├── __init__.py
+│   │   │   └── seed.py # Database seeding scripts
+│   │   ├── config.py # Configuration settings
+│   │   └── database.py # Database connection and setup
+│   ├── alembic/ # Alembic migrations
+│   │   ├── env.py
+│   │   ├── README
+│   │   ├── script.py.mako
+│   │   └── versions/
+│   └── __init__.py
 ├── tests/ # Testing directory
-│ ├── init.py
-│ └── ...
+│   ├── __init__.py
+│   └── ...
 ├── .env # Environment variables
 ├── requirements.txt # Project dependencies
 ├── alembic.ini # Alembic configuration
 ├── README.md # This file
+```
 
 ## Getting Started
 
